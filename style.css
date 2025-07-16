@@ -8,7 +8,9 @@
 }
 
 /* shared style */
-
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-color{
     color: #FF6E09;
 }
@@ -24,6 +26,15 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 /* header */
 .header{
@@ -78,4 +89,23 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* main style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
